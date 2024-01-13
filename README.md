@@ -2,7 +2,6 @@
 
 Instruction:
     To run the system using: python3 main.py
-    video: https://youtu.be/65hB8GWHNqA
 
 Overview:
     The "Relax" system is designed to process text-based representations of relations and execute relational algebra queries.
