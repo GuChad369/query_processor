@@ -1,15 +1,15 @@
 # Relax System Documentation
 
-###Instruction:
+### Instruction:
     To run the system using: python3 main.py
 
-###Overview:
+### Overview:
     The "Relax" system is designed to process text-based representations of relations and execute relational algebra queries.
 
-###Data Structure:
+### Data Structure:
     Relations are stored using dictionaries.
 
-###Entering Relations:
+### Entering Relations:
     Format: Relations must be defined in a structured format as shown in the examples below.
     End Marker: Always conclude your relation input with "END" on a new line.
     Example:
@@ -21,7 +21,7 @@
         }
         END
 
-###Relational Algebra Query Format:
+### Relational Algebra Query Format:
     Queries must adhere to the following syntax:
         1.Selection:
             select [Age = 18] (Student)
@@ -37,7 +37,7 @@
             Intersection: (Student) ^ (Employee)
             Difference: (Student) - (Employee)
 
-###Example:
+### Example:
 Student = {
     id, name, email, Dept
     1, 'Alex', 'alex@carleton.ca', Sales
